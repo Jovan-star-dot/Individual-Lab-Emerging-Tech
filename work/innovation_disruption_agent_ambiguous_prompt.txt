@@ -1,4 +1,4 @@
-FROZEN CORE — COMMON INSTRUCTIONS
+MASY1-GC 1800 EMERGING TECHNOLOGIES - SPECIALIST AGENT RUN
 
 # FROZEN CORE - Common Agent Instructions
 
@@ -23,8 +23,14 @@ Do not let organizational context rewrite general technology evidence. Context c
 Return one JSON object that follows the supplied output schema. Do not wrap the JSON in Markdown fences and do not add prose before or after it.
 
 
-SPECIALIST INSTRUCTIONS
+# AGENT METADATA
+{
+  "name": "Emerging Technology Innovation and Disruption Agent",
+  "specialty": "innovation classification and creative destruction / business-model disruption",
+  "version": "0.2-draft"
+}
 
+# SPECIALIST ANALYTICAL INSTRUCTIONS
 # Innovation and Disruption Agent — Specialist Instructions (Draft)
 
 ## Purpose and governing question
@@ -68,8 +74,7 @@ Keep the frozen JSON schema unchanged. Put the general technology classification
 - Taking over another specialist's question instead of handing it off.
 
 
-CASE INPUT
-
+# CASE CONTEXT
 {
   "emerging_technology": "Agentic AI",
   "intended_application": "A retailer's new customer-service FAQ helper is described in its internal launch deck as an agentic AI system. The supplied technical description says it receives a question, follows one fixed sequence to search a policy document, drafts a response, and waits for a human representative to approve it. It cannot choose among tools, take customer/account actions, or continue a task across turns.",
@@ -85,8 +90,7 @@ CASE INPUT
   "additional_context": "This is a deliberately ambiguous borderline test. The technology field says Agentic AI, while the supplied application description sounds like a predefined workflow. Treat the vendor/internal label as a claim to assess, not as evidence. State what additional architecture or outcome evidence would resolve the ambiguity."
 }
 
-FROZEN CORE — OUTPUT SCHEMA
-
+# REQUIRED OUTPUT SCHEMA
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "MASY1800 Specialist Agent Output",
@@ -201,3 +205,5 @@ FROZEN CORE — OUTPUT SCHEMA
   },
   "additionalProperties": false
 }
+
+Return JSON only. Use the evidence discipline above. If current external evidence is required and you cannot verify it, state the limitation rather than inventing support.

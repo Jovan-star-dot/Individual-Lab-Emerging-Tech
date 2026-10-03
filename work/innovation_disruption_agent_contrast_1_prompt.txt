@@ -1,4 +1,4 @@
-FROZEN CORE — COMMON INSTRUCTIONS
+MASY1-GC 1800 EMERGING TECHNOLOGIES - SPECIALIST AGENT RUN
 
 # FROZEN CORE - Common Agent Instructions
 
@@ -23,8 +23,14 @@ Do not let organizational context rewrite general technology evidence. Context c
 Return one JSON object that follows the supplied output schema. Do not wrap the JSON in Markdown fences and do not add prose before or after it.
 
 
-SPECIALIST INSTRUCTIONS
+# AGENT METADATA
+{
+  "name": "Emerging Technology Innovation and Disruption Agent",
+  "specialty": "innovation classification and creative destruction / business-model disruption",
+  "version": "0.2-draft"
+}
 
+# SPECIALIST ANALYTICAL INSTRUCTIONS
 # Innovation and Disruption Agent — Specialist Instructions (Draft)
 
 ## Purpose and governing question
@@ -68,8 +74,7 @@ Keep the frozen JSON schema unchanged. Put the general technology classification
 - Taking over another specialist's question instead of handing it off.
 
 
-CASE INPUT
-
+# CASE CONTEXT
 {
   "emerging_technology": "Agentic AI",
   "intended_application": "An internal assistant at a small consulting firm that searches approved internal documents, drafts meeting summaries, and prepares first-pass knowledge briefs for consultant review. It cannot contact clients, change project records, make staffing decisions, or deliver final client advice.",
@@ -85,8 +90,7 @@ CASE INPUT
   "additional_context": "The firm is hypothetical. Treat its current practices as case assumptions. The same Agentic AI classification should remain stable as in the primary case, while the bounded internal application may have lower direct exposure to customer-facing channels, revenue logic, and transaction processes. Consider whether indirect effects on consultant capacity or differentiation could still matter."
 }
 
-FROZEN CORE — OUTPUT SCHEMA
-
+# REQUIRED OUTPUT SCHEMA
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "MASY1800 Specialist Agent Output",
@@ -201,3 +205,5 @@ FROZEN CORE — OUTPUT SCHEMA
   },
   "additionalProperties": false
 }
+
+Return JSON only. Use the evidence discipline above. If current external evidence is required and you cannot verify it, state the limitation rather than inventing support.

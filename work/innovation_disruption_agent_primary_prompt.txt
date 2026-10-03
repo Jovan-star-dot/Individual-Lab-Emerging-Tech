@@ -1,4 +1,4 @@
-FROZEN CORE — COMMON INSTRUCTIONS
+MASY1-GC 1800 EMERGING TECHNOLOGIES - SPECIALIST AGENT RUN
 
 # FROZEN CORE - Common Agent Instructions
 
@@ -23,8 +23,14 @@ Do not let organizational context rewrite general technology evidence. Context c
 Return one JSON object that follows the supplied output schema. Do not wrap the JSON in Markdown fences and do not add prose before or after it.
 
 
-SPECIALIST INSTRUCTIONS
+# AGENT METADATA
+{
+  "name": "Emerging Technology Innovation and Disruption Agent",
+  "specialty": "innovation classification and creative destruction / business-model disruption",
+  "version": "0.2-draft"
+}
 
+# SPECIALIST ANALYTICAL INSTRUCTIONS
 # Innovation and Disruption Agent — Specialist Instructions (Draft)
 
 ## Purpose and governing question
@@ -68,8 +74,7 @@ Keep the frozen JSON schema unchanged. Put the general technology classification
 - Taking over another specialist's question instead of handing it off.
 
 
-CASE INPUT
-
+# CASE CONTEXT
 {
   "emerging_technology": "Agentic AI",
   "intended_application": "A customer-service resolution system that interprets requests, retrieves order and account information, uses approved tools, coordinates multi-step workflows, and resolves bounded routine issues with human escalation for uncertain or higher-consequence cases.",
@@ -85,8 +90,7 @@ CASE INPUT
   "additional_context": "Keep the general classification of Agentic AI separate from the innovation represented by this specific service application and its significance to this retailer. The retailer is hypothetical; treat its described current service model as case assumptions, not externally verified company facts."
 }
 
-FROZEN CORE — OUTPUT SCHEMA
-
+# REQUIRED OUTPUT SCHEMA
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "MASY1800 Specialist Agent Output",
@@ -201,3 +205,5 @@ FROZEN CORE — OUTPUT SCHEMA
   },
   "additionalProperties": false
 }
+
+Return JSON only. Use the evidence discipline above. If current external evidence is required and you cannot verify it, state the limitation rather than inventing support.
