@@ -1,11 +1,11 @@
 # Innovation and Disruption Agent Record — Working Draft
 
-- **Repository / branch / commit:** `Jovan-star-dot/Individual-Lab-Emerging-Tech` / branch pending GitHub write access / latest inspected main commit `f3aaf1aac99afcead4119450957c81be2ceb5757`.
+- **Repository / branch / commit:** `Jovan-star-dot/Individual-Lab-Emerging-Tech` / `week-5-assignment-3-innovation-disruption` / initial package commit before this record correction: `1880cf28157aa36a8af6d45b4af7a39ef4acf9ff`.
 - **Agent / assignment:** Innovation and Disruption Agent — Week 5, Assignment 3.
 - **General technology classification:** Pending evidence-based primary run.
 - **Primary application classification:** Pending primary run.
 - **Primary business-model finding and rating:** Pending primary run.
-- **Primary test result:** Not run yet; prompt builder and validator were not present in the inspected repository tree.
+- **Primary test result:** Not run yet. The attached repository ZIP's file inventory lists the scaffold tools, but the archive does not contain the `tools/` directory.
 - **Contrast test result:** Not run yet.
 - **What should stay stable:** General Agentic AI classification, subject to the same evidence and baseline.
 - **What should change:** Application significance, organizational novelty, direct and indirect value creation/displacement, timing risks, disruption rating, and confidence.
