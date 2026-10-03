@@ -2,7 +2,7 @@
   "agent": {
     "name": "Emerging Technology Innovation and Disruption Agent",
     "specialty": "innovation classification and creative destruction / business-model disruption",
-    "version": "0.1-draft"
+    "version": "0.2-draft"
   },
   "analytical_question": "Does the system's agentic label establish breakthrough innovation or business-model disruption, and what evidence would change the classification?",
   "general_et_finding": "Agentic AI is an umbrella for systems that combine language models with tools and varying amounts of model-directed multi-step action; the label has no single universally agreed boundary. The evidence does not support treating it as one discrete invention. ReAct (2023) and Toolformer (2023) are examples of research that combined language-model output with actions or API calls. On the available evidence, classify Agentic AI generally as an incremental innovation in recombining and productizing existing capabilities, rather than a proven breakthrough; a competing view is that reliable model-directed action could be a breakthrough if it makes complex work feasible without fixed scripts, but the cited evidence does not establish that threshold across real service operations. Commercialization is a separate activity: agentic offerings are being marketed, but product availability alone does not establish scaled use or realized value.",
