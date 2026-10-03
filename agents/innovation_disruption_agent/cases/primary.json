@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI",
+  "intended_application": "A customer-service resolution system that interprets requests, retrieves order and account information, uses approved tools, coordinates multi-step workflows, and resolves bounded routine issues with human escalation for uncertain or higher-consequence cases.",
+  "organization": "Hypothetical large e-commerce retailer",
+  "industry_sector": "E-commerce and retail",
+  "business_need": "Improve customer-service speed and consistency while managing high volumes of routine requests. The retailer currently relies on human agents, self-service pages, and conventional chat support.",
+  "users_stakeholders": "Customers, service representatives, service leaders, operations, technology teams, and executives responsible for cost, customer experience, and service quality.",
+  "adoption_posture": "Bounded evaluation; no assumption that the system is already deployed or successful.",
+  "capabilities_constraints": "Potential access to order systems, policies, service history, and approved action tools. Reliability, permissions, integration, reversibility, cost, data quality, and escalation remain uncertain and must be supported with case evidence.",
+  "risk_consequence_context": "Incorrect refunds, account changes, or customer guidance could cause financial loss, privacy harm, poor service, and reduced trust. Do not assume the system can safely act without human review.",
+  "management_question": "How should Agentic AI and this service application be classified, what value could the application create or displace in the retailer's current model, and how consequential is the business-model exposure?",
+  "time_horizon": "Near-term evaluation and a 2- to 5-year competitive horizon, with claims about market adoption verified rather than assumed.",
+  "additional_context": "Keep the general classification of Agentic AI separate from the innovation represented by this specific service application and its significance to this retailer. The retailer is hypothetical; treat its described current service model as case assumptions, not externally verified company facts."
+}
