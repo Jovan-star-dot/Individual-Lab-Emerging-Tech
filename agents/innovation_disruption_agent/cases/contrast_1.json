@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI",
+  "intended_application": "An internal assistant at a small consulting firm that searches approved internal documents, drafts meeting summaries, and prepares first-pass knowledge briefs for consultant review. It cannot contact clients, change project records, make staffing decisions, or deliver final client advice.",
+  "organization": "Hypothetical small consulting firm",
+  "industry_sector": "Professional services and management consulting",
+  "business_need": "Reduce repetitive search and note-preparation work while helping consultants find relevant internal material. The firm currently uses shared folders, search, and manual summaries.",
+  "users_stakeholders": "Consultants, project leads, knowledge-management staff, firm leadership, and clients indirectly affected by the quality of consultant work.",
+  "adoption_posture": "Exploratory and human-reviewed; no assumption that the tool is in production.",
+  "capabilities_constraints": "The assistant has bounded read access to approved files. Source relevance, confidentiality, document quality, citation traceability, time saved, and review burden must be tested. It cannot autonomously make client commitments or execute business transactions.",
+  "risk_consequence_context": "Errors could waste staff time, expose confidential information, omit context, or introduce incorrect material into client work. Human consultants remain responsible for judgment and final deliverables.",
+  "management_question": "With Agentic AI held constant, how does this internal knowledge application differ from customer-service resolution in innovation significance, created or displaced value, and business-model disruption?",
+  "time_horizon": "Near-term evaluation and a 2- to 5-year competitive horizon, with claims about market adoption verified rather than assumed.",
+  "additional_context": "The firm is hypothetical. Treat its current practices as case assumptions. The same Agentic AI classification should remain stable as in the primary case, while the bounded internal application may have lower direct exposure to customer-facing channels, revenue logic, and transaction processes. Consider whether indirect effects on consultant capacity or differentiation could still matter."
+}

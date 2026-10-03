@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI",
+  "intended_application": "A retailer's new customer-service FAQ helper is described in its internal launch deck as an agentic AI system. The supplied technical description says it receives a question, follows one fixed sequence to search a policy document, drafts a response, and waits for a human representative to approve it. It cannot choose among tools, take customer/account actions, or continue a task across turns.",
+  "organization": "Hypothetical mid-sized online retailer",
+  "industry_sector": "E-commerce and retail",
+  "business_need": "Reduce representative time spent finding policy answers and drafting routine responses while preserving human approval.",
+  "users_stakeholders": "Customers, customer-service representatives, service managers, and the technology team.",
+  "adoption_posture": "Limited internal rollout; the case provides no outcome data.",
+  "capabilities_constraints": "The tool performs a fixed retrieval-and-draft workflow using one approved policy source. It has no transactional permissions. No evidence is supplied about accuracy, source freshness, review time, cost, customer experience, or whether the internal deck's technical description is complete.",
+  "risk_consequence_context": "An incorrect or outdated draft could mislead a customer, but a human representative approves all responses and the system cannot change an order or issue a refund.",
+  "management_question": "Does the system's agentic label establish breakthrough innovation or business-model disruption, and what evidence would change the classification?",
+  "time_horizon": "Current bounded use, with any scaling decision considered over the next 6 to 12 months.",
+  "additional_context": "This is a deliberately ambiguous borderline test. The technology field says Agentic AI, while the supplied application description sounds like a predefined workflow. Treat the vendor/internal label as a claim to assess, not as evidence. State what additional architecture or outcome evidence would resolve the ambiguity."
+}
