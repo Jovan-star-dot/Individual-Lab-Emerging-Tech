@@ -1,0 +1,68 @@
+{
+  "agent": {
+    "name": "Promethean Technology Classification Agent",
+    "specialty": "scale and breadth of technological significance",
+    "version": "0.1-student"
+  },
+  "analytical_question": "Does general evidence about Agentic AI establish cross-tier categorical-barrier dissolution, and what is the significance of a human-reviewed internal knowledge-search and briefing assistant for this hypothetical consulting firm?",
+  "general_et_finding": "Indeterminate — Moderate confidence that the present record is insufficient to support a higher classification; low confidence about Agentic AI's eventual long-range significance. The unit is usable Agentic AI systems in general, not AI as a whole and not one vendor product. NIST describes agents as models plus software scaffolding for tool use and reports experimental deployment. This supports system existence and exploration but does not establish a course-defined categorical barrier. Barrier and suppression tests: the evidence does not support a credible statement that an activity was previously constrained in a way that defined a categorical boundary of human experience, rather than merely being difficult or costly. The suppression test is Unknown because the sources do not establish whether removing deployed agents would restore prior arrangements or disrupt systems rebuilt around them. Reported use is concentrated in economic/workflow contexts; evidence does not establish dissolution across at least two of the course's biological-survival, economic-activity, and cognitive/social tiers. Six course criteria (status and basis): (1) order-of-magnitude improvement — Unknown; no independently verified roughly tenfold comparison in a meaningful dimension is supplied; the vendor-reported query volume is not a comparative tenfold result. (2) widespread impact — Mixed; NIST describes experimental deployments and the survey reports some scaled use across organizations/functions, but measured effects across multiple sectors and human-life tiers are not established. (3) paradigm shift — Unknown; sources do not show changed assumptions previously treated as settled. (4) catalytic effect — Unknown; no cited evidence shows further innovations that depend on Agentic AI. (5) democratizing effect — Unknown; there is no evidence that a previously scarce capability became broadly accessible. (6) irreversibility — Unknown; no evidence shows durable dependence or disruption if systems are removed, and this cannot be confirmed prospectively. Neither Incremental nor Breakthrough is established for the broad category from this evidence.",
+  "application_finding": "An assistant that retrieves firm-approved material and drafts briefings may be useful for knowledge discovery, but the case provides no evidence of retrieval accuracy, source fidelity, time savings, or confidentiality performance. Read-only retrieval and human review can limit some actions, but the usefulness and significance of this particular application remain unverified.",
+  "organization_specific_finding": "The firm's client workspaces and confidential material raise the consequence of access-control or source-selection errors. Its cautious posture and human approval requirement may make a limited internal evaluation more proportionate than a broad deployment, but they do not establish that the system is safe or that review catches errors. These organizational conditions affect uncertainty and evaluation needs, not the general classification.",
+  "evidence": [
+    {
+      "claim": "The course framework requires a usable system, credible categorical-barrier statement, suppression test, effects across at least two human-life tiers, and assessment of six criteria.",
+      "source_or_reference": "Assigned course text, Mastering the Craft of Emerging Technology Adoption, ch. 11; Week 6 Assignment 4 brief.",
+      "date_or_recency": "Assigned for Fall 2026; course materials reviewed for this assignment.",
+      "evidence_type": "Course definition and analytical framework",
+      "notes": "The numeric four-of-five pass threshold is proposed in the agent criteria file, not a course or instructor definition."
+    },
+    {
+      "claim": "NIST characterizes agents as models with software scaffolding for tool use, including different permission types such as read-only retrieval and constrained writing.",
+      "source_or_reference": "NIST, Lessons Learned from the Consortium: Tool Use in Agent Systems — https://www.nist.gov/news-events/news/2025/08/lessons-learned-consortium-tool-use-agent-systems",
+      "date_or_recency": "2025-08-05",
+      "evidence_type": "Government technical source",
+      "notes": "Defines relevant system behavior and permission boundaries; read-only retrieval alone does not establish agentic behavior or meaningful impact."
+    },
+    {
+      "claim": "About two in ten survey respondents say their organizations have scaled AI agents; knowledge management is among functions where agent use is reported.",
+      "source_or_reference": "McKinsey, The state of AI in 2026: On the road to ROI — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "date_or_recency": "2026-08-25; survey of 1,719 respondents across 97 countries",
+      "evidence_type": "Global respondent survey",
+      "notes": "Self-reported adoption, not deployment logs or quality evidence for this hypothetical briefing assistant. The survey's 37% positive EBIT result refers to AI overall, not Agentic AI."
+    },
+    {
+      "claim": "METR's task-horizon benchmarks primarily cover well-specified software, machine-learning, and cybersecurity tasks; measured horizons do not establish equivalent autonomy across professional work, and messier holistic tasks are harder.",
+      "source_or_reference": "METR, Measuring AI Ability to Complete Long Tasks — https://metr.org/time-horizons/",
+      "date_or_recency": "Updated 2026-05-08",
+      "evidence_type": "Independent benchmark methodology and findings",
+      "notes": "Limits extrapolation from benchmark task performance to consulting briefs and open-ended knowledge work."
+    },
+    {
+      "claim": "NIST reports initial indirect prompt-injection evaluations in which agent systems can be led to unintended actions.",
+      "source_or_reference": "NIST CAISI, Strengthening AI Agent Hijacking Evaluations — https://www.nist.gov/news-events/news/2025/01/technical-blog-strengthening-ai-agent-hijacking-evaluations",
+      "date_or_recency": "2025-01-17",
+      "evidence_type": "Government technical evaluation note",
+      "notes": "Relevant to internal repositories and tool permissions; does not quantify the risk in the hypothetical firm."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "The survey finding indicates that reported scaled use remains a minority and does not establish quality or productivity in knowledge management.",
+    "METR cautions against carrying results from narrow, well-specified tasks over to messy professional work such as synthesizing client-specific briefings.",
+    "NIST's prompt-injection findings challenge assumptions that tool access is safe simply because a workflow appears read-only or human-reviewed.",
+    "No supplied evidence establishes retrieval correctness, citation fidelity, permission enforcement, confidentiality, or a categorical barrier dissolved across two tiers."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence that the present evidence is insufficient to support a higher classification; low confidence in Agentic AI's eventual long-term significance. Sources establish some systems and reported scaling but do not address the decisive barrier, suppression, and cross-tier tests. Confidence in this consulting application is low because the case has no system-level test results.",
+  "value_opportunity_implication": "The proposed assistant could make approved internal knowledge easier to locate and produce first drafts, but any efficiency or quality gain is a hypothesis. The firm would need a baseline comparison of retrieval relevance, citation support, briefing quality, review burden, and time.",
+  "risk_governance_implication": "Client workspace boundaries, least necessary access, source-level traceability, confidentiality testing, and human verification are central. Review is a proposed control, not evidence that errors or unauthorized disclosure will be prevented.",
+  "recommendation_management_implication": "The general classification should not change because this firm is cautious. Indeterminate significance supports a bounded evidence-gathering posture, but does not itself support deployment; any test should be evaluated against the firm's confidentiality and quality requirements before expanding scope.",
+  "change_monitoring_triggers": [
+    "Independent evaluations show reliable retrieval, faithful citations, and lower review time for comparable consulting knowledge tasks.",
+    "Audited evidence shows permission boundaries and confidentiality protections hold under adversarial and cross-client access tests.",
+    "Replicated evidence supports a categorical barrier statement, suppression-test result, and cross-tier effects, alongside support for the prospective significance criteria.",
+    "Evidence of broad substitutability and easy return to existing knowledge processes would weigh against irreversibility; durable reliance and disruption on removal would warrant reassessment."
+  ],
+  "abstention_or_more_information_needed": [
+    "The case lacks a specified system, retrieval corpus and permissions, test set, baseline, reviewer-error data, and confidentiality evaluation.",
+    "Do not infer that human review removes risk or that survey reports establish results for this firm."
+  ]
+}
